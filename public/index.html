@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Profile Form</title>
+</head>
+<body>
+  <h1>Update Your Profile</h1>
+  <form action="/profile" method="POST" enctype="multipart/form-data">
+    <label>First Name: <input type="text" name="firstName" required /></label><br/><br/>
+    <label>Last Name: <input type="text" name="lastName" required /></label><br/><br/>
+    <label>Phone: <input type="number" name="phone" required /></label><br/><br/>
+    <label>Email: <input type="email" name="email" required /></label><br/><br/>
+    <label>Photo: <input type="file" name="photo" accept="image/*" /></label><br/><br/>
+    <button type="submit">Save Profile</button>
+  </form>
+</body>
+</html>
