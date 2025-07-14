@@ -6,9 +6,9 @@ A full-stack Node.js application for submitting and storing user profiles, compl
 
 ## 🚀 Features
 
-- 👤 Submit first name, last name, email, and a photo
+- 👤 Form-based profile submission
 - 📸 Photo files saved locally in `/uploads`
-- 💾 Data stored in MongoDB (`profiledb` → `userProfiles`)
+- 💾 Data stored in MongoDB (`my-db` → `users`)
 - 🐳 Containerized with Docker Compose (MongoDB + Node.js)
 - 📂 Clean folder structure with public form and uploads
 
@@ -24,5 +24,13 @@ A full-stack Node.js application for submitting and storing user profiles, compl
 
 ---
 
+## - Setup Instructions:
+- git clone https://github.com/justobioma/Docker-app/
+- cd app
+- node server.js
+- docker-compose up
+- Check http://localhost:3000/
+
+---
 ## 📦 Folder Structure
 
