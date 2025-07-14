@@ -33,4 +33,11 @@ A full-stack Node.js application for submitting and storing user profiles, compl
 
 ---
 ## 📦 Folder Structure
+app/ │ ├── server.js          # Main backend server ├── package.json       # Project metadata and scripts ├── /public │   ├── index.html     # Form for profile submission │   └── /uploads       # Uploaded images live here
+
+---
+## Screenshots
+<img width="732" height="401" alt="Screenshot 2025-07-11 144306" src="https://github.com/user-attachments/assets/56402f4c-fdd3-4ddb-968c-82d5c33d925a" />
+
+---
 
